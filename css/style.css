@@ -52,6 +52,8 @@ a {
 
 .main-navigation,
 .inner-navigation {
+      max-width:1200px;
+    min-width: 768px;
   margin: 0;
   padding: 0;
   background-color: #ffffff;
