@@ -4,8 +4,8 @@ html {
 
 body {
   position: relative;
-  width: 1200px;
-  min-width: 968px;
+  max-width: 1200px;
+  min-width: 768px;
   margin: 0 auto;
   padding: 0;
   font-family: "PT Sans", "Arial", sans-serif;
@@ -43,7 +43,7 @@ a {
 .main-header-logo {
   position: absolute;
   top: 0;
-  left: 531px;
+  left: 50%;
   font-size: 0;
   line-height: 0;
   width: 138px;
@@ -58,16 +58,17 @@ a {
 }
 
 .site-navigation {
-  width: 1056px;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  justify-content: space-between;
   padding: 0;
   margin: 0;
-  margin-right: 72px;
-  margin-left: 72px;
+  margin-right: 6%;
+  margin-left: 6%;
   padding-top: 15px;
   padding-bottom: 15px;
   list-style: none;
@@ -81,25 +82,25 @@ a {
 }
 
 .site-navigation li:nth-child(4n+1) {
-  width: 128px;
-  margin-right: 112px;
+  width: 20%;
+/*  margin-right: 112px;*/
   text-align: left;
 }
 
 .site-navigation li:nth-child(4n+2) {
-  width: 100px;
-  margin-right: 388px;
+  width: 24%;
+/*  margin-right: 388px;*/
   text-align: left;
 }
 
 .site-navigation li:nth-child(4n+3) {
-  width: 91px;
+  width: 24%;
   text-align: right;
 }
 
 .site-navigation li:nth-child(4n+4) {
-  width: 79px;
-  margin-left: auto;
+  width: 20%;
+/*  margin-left: auto;*/
   text-align: right;
 }
 
