@@ -86,23 +86,27 @@ a {
   width: 20%;
 /*  margin-right: 112px;*/
   text-align: left;
+     align-content: flex-start;
 }
 
 .site-navigation li:nth-child(4n+2) {
   width: 24%;
 /*  margin-right: 388px;*/
   text-align: left;
+     align-content: flex-start;
 }
 
 .site-navigation li:nth-child(4n+3) {
   width: 24%;
   text-align: right;
+     align-content: flex-end;
 }
 
 .site-navigation li:nth-child(4n+4) {
   width: 20%;
 /*  margin-left: auto;*/
   text-align: right;
+    align-content: flex-end;
 }
 
 .site-navigation a {
