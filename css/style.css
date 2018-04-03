@@ -151,6 +151,8 @@ a {
   height: auto;
   margin-left: auto;
   margin-right: auto;
+    padding-left:17%;
+    padding-right:17%;
 }
 
 .causes p:first-child {
@@ -232,8 +234,6 @@ a {
   padding: 0;
   margin: 0;
   padding-top: 47px;
-    padding-left:17%;
-    padding-right:17%;
 }
 
 .cause-realcity h3 {
@@ -329,7 +329,7 @@ a {
 
 .facilities li {
   width: 33%;
-    padding:0 17%;
+    padding:0;
 }
 
 .facilities img {
