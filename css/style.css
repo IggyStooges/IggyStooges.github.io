@@ -215,6 +215,7 @@ a {
       justify-content: space-around;
   background-color: rgb(238, 238, 238);
 }
+/*
 
 .cause-realcity .photo-town {
   width: 66%;
@@ -222,6 +223,7 @@ a {
   padding: 0;
   margin: 0;
 }
+*/
 
 .causes-flex-element {
   width: 33%;
@@ -230,6 +232,8 @@ a {
   padding: 0;
   margin: 0;
   padding-top: 47px;
+    padding-left:17%;
+    padding-right:17%;
 }
 
 .cause-realcity h3 {
@@ -258,6 +262,7 @@ a {
 
 .causes-wrapping p {
   padding-bottom: 60px;
+    
 }
 
 .cause-bridge p {
@@ -318,11 +323,13 @@ a {
   padding-bottom: 82px;
   background-color: rgb(255, 255, 255);
   list-style: none;
+  list-style: none;
   color: rgb(0, 0, 0);
 }
 
 .facilities li {
   width: 33%;
+    padding:0 17%;
 }
 
 .facilities img {
