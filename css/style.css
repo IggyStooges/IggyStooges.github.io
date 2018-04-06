@@ -249,7 +249,7 @@ a {
 .cause-area p,
 .cause-road p,
 .cause-tourists p {
-  width: 23%;
+  width: 65%;
   padding: 0;
   margin: 0;
   margin-left: auto;
@@ -261,7 +261,7 @@ a {
 }
 
 .causes-wrapping p {
-  padding-bottom: 60px;
+  padding-bottom: auto;
     
 }
 
