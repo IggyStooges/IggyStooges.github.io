@@ -260,6 +260,10 @@ a {
     width:66%;
 }
 
+.causes-wrapping img:first-child {
+    margin-left: auto;
+}
+
 .causes-wrapping p {
   padding-bottom: auto;
     
